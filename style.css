@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    
+}
+
+.header-nav {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.barra-navegacion {
+    background-color: #967E76;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    z-index: 10;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    font-size: 35px;
+    justify-content: space-around;
+    width: 100%;
+}
+.lista-li {
+    margin: auto;
+}
+
+.inicio-pituquerias {
+    text-align: center;
+    font-size: 45px;
+    width: 100%;
+}
+
+.inicio-titulo {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2%;
+    padding: 10px;
+    background-color: #D7C0AE;
+    font-family: 'Dancing Script', cursive;
+}
+
+.inicio-p{
+    display: flex;
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.inicio-pituquerias img {
+    width: 400px;
+    height: 400px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: #967E76;
+    z-index: 10;
+}
+
+.img-instagram {
+    position: absolute;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.img-facebook {
+    position: relative;
+    left: 96%;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+}
+
+.contenido-tienda {
+    position: absolute;
+    margin-top: 2%;
+    width: 100%;
+    height: 100%;
+}
+
+.titulo-tienda {
+    position: fixed;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    width: 100%;
+    z-index: 5;
+    background-color: #D7C0AE;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.nuestros-productos{
+    font-size: 30px;
+}
+
+.personalizar-pedido{
+    font-size: 30px;
+}
+
+.lista-tienda {
+    position: relative;
+    left: 5%;
+    width: 100%;
+    margin-top: 5%;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+.lista-tienda li {
+    display: inline-block;
+}
+
+.lista-personalizar {
+    position: relative;
+    left: 5%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.colgantes-artesanales img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.guirnaldas img {
+    display: inline-block;
+    width: 500px;
+    height: 250px;
+}
+
+.flores-tela img {
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+}
+
+.titeres img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.box-hogar img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.box-infante img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.perfuminas img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.bolsitas-artesanales img {
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+}
+
+.contenedor-contacto{
+    
+    width: 100%;
+    margin-top: 2%;
+}
+
+.contacto {
+    font-size: 50px;
+    background-color: #D7C0AE;
+    padding: 5px;
+}
+
+.contacto-redes {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+}
+
+.contacto-redes-items{
+    font-family: 'Dancing Script', cursive;
+}
+
+.contacto-redes-items a {
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.contacto-particular {
+    display: flex;
+    margin-top: 10%;
+}
+
+.contacto-datos {
+    list-style: none;
+    font-size: 50px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.contacto-datos-items{
+    font-weight: bold;
+}
+
+.contenedor-sobre-pituquerias{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.sobre-pituquerias {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    font-size: 60px;
+    font-style: italic;
+    background-color: #D7C0AE;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+.info-sobre-nosotros {
+    display: flex;
+    text-align: center;
+}
+
+
+.info-sobre-nosotros-p {
+    font-size: 40px;
+    padding-top: 10%;
+    margin-left: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.info-sobre-nosotros img {
+    width: 600px;
+    height: 600px;
+    margin: 50px;
+}
