@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,22 +18,26 @@
 
 <body>
     <header class="header-nav">
-        <nav class="barra-navegacion">
-            <ul class="lista">
-                <li class="lista-li">
-                    <a href="index.html"> Inicio </a>
-                </li>
-                <li class="lista-li">
-                    <a href="productos.html"> Productos </a>
-                </li>
-                <li class="lista-li">
-                    <a href="contacto.html"> Contacto </a>
-                </li>
-                <li class="lista-li">
-                    <a href="sobrepituquerias.html"> Sobre Pituquerias </a>
-                </li>
-            </ul>
+        <nav class="navbar navbar-expand-lg nav-color sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/pituquerias-logo.png" alt="PituLogo" class="nav-img"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center text-size" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                        <a class="nav-link active" aria-current="Productos" href="productos.html">Productos</a>
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="sobrepituquerias.html">Sobre Nosotros</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+
+        
     </header>
 
     <section class="tienda">
@@ -89,21 +94,21 @@
     </section>
 
 
-    <footer>
-        <div class="copyright">
-            <h4>Todos los Derechos Reservados © </h4>
-        </div>
-        <div class="img-instagram">
-            <a href="https://www.instagram.com/pituquerias_/" target="_blank"><img src="img/instagram-logo.png"
-                    alt="Instagram"></a>
-        </div>
-        <div class="img-facebook">
-            <a href="https://www.facebook.com/pituquerias" target="_blank"><img src="img/facebook-logo.png"
-                    alt="Facebook"></a>
-        </div>
+    <!--     <footer>
+            <div class="copyright">
+                <h4>Todos los Derechos Reservados © </h4>
+            </div>
+            <div class="img-instagram">
+                <a href="https://www.instagram.com/pituquerias_/" target="_blank"><img src="img/instagram-logo.png"
+                        alt="Instagram"></a>
+            </div>
+            <div class="img-facebook">
+                <a href="https://www.facebook.com/pituquerias" target="_blank"><img src="img/facebook-logo.png"
+                        alt="Facebook"></a>
+            </div>
 
-    </footer>
-
+        </footer>
+ -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
         crossorigin="anonymous"></script>

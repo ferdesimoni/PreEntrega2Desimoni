@@ -5,19 +5,25 @@
     
 }
 
-.header-nav {
-    display: flex;
-    width: 100%;
-    height: 100%;
+body{
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.barra-navegacion {
+
+.nav-color{ 
     background-color: #967E76;
-    display: flex;
-    position: fixed;
-    width: 100%;
-    height: 5%;
-    z-index: 10;
 }
+
+.nav-img{
+    width: 65px;
+    height: 65px;
+}
+
+.text-size{
+    font-size: 30px;
+}
+
 
 .lista {
     list-style: none;
@@ -31,15 +37,20 @@
 }
 
 .inicio-pituquerias {
+    position: absolute;
+    height: 100vh;
     text-align: center;
-    font-size: 45px;
-    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pitu-logo{
+    width: 200px;
+    height: 200px;
 }
 
 .inicio-titulo {
     text-align: center;
     font-size: 60px;
-    margin-top: 2%;
     padding: 10px;
     background-color: #D7C0AE;
     font-family: 'Dancing Script', cursive;
@@ -52,12 +63,13 @@
     text-align: center;
     font-size: 60px;
     font-family: 'Dancing Script', cursive;
+    color: #EEE3CB;
 }
 
 
 .inicio-pituquerias img {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
 }
 
 footer {
@@ -69,7 +81,7 @@ footer {
     z-index: 10;
 }
 
-.img-instagram {
+/* .img-instagram {
     position: absolute;
     right: 0;
     width: 35px;
@@ -91,26 +103,27 @@ footer {
 .copyright {
     position: absolute;
     bottom: 0;
+} */
+
+.tienda{
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .contenido-tienda {
-    position: absolute;
-    margin-top: 2%;
     width: 100%;
     height: 100%;
 }
 
+
 .titulo-tienda {
-    position: fixed;
+    position: absolute;
     text-align: center;
     font-size: 60px;
     padding: 10px;
     width: 100%;
-    z-index: 5;
     background-color: #D7C0AE;
     font-family: 'Dancing Script', cursive;
 }
-
 
 .nuestros-productos{
     font-size: 30px;
@@ -206,9 +219,8 @@ img {
 }
 
 .contenedor-contacto{
-    
-    width: 100%;
-    margin-top: 2%;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100vh;
 }
 
 .contacto {
@@ -246,17 +258,14 @@ img {
     flex-direction: column;
     text-align: center;
     margin: auto;
+    color: #EEE3CB;
 }
 
 .contacto-datos-items{
     font-weight: bold;
 }
 
-.contenedor-sobre-pituquerias{
-    display: flex;
-    width: 100%;
-    margin-top: 2%;
-}
+
 
 .sobre-pituquerias {
     width: 100%;
@@ -266,12 +275,17 @@ img {
     font-style: italic;
     background-color: #D7C0AE;
     font-family: 'Dancing Script', cursive;
+    margin-bottom: 0;
 }
 
 
 .info-sobre-nosotros {
+    position: absolute;
     display: flex;
+    width: 100%;
+    height: 100vh;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 
@@ -280,6 +294,7 @@ img {
     padding-top: 10%;
     margin-left: 10px;
     font-family: 'Dancing Script', cursive;
+    color:#EEE3CB;
 }
 
 .info-sobre-nosotros img {

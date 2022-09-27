@@ -8,40 +8,42 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind+Siliguri:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hind+Siliguri:wght@300&display=swap"
+        rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <title>Pituquerias</title>
 </head>
 
 <body>
-
+ 
     <header class="header-nav">
-        <nav class="barra-navegacion">
-            <ul class="lista">
-                <li class="lista-li">
-                    <a href="index.html"> Inicio </a>
-                </li>
-                <li class="lista-li">
-                    <a href="productos.html"> Productos </a>
-                </li>
-                <li class="lista-li">
-                    <a href="contacto.html"> Contacto </a>
-                </li>
-                <li class="lista-li">
-                    <a href="sobrepituquerias.html"> Sobre Pituquerias </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="inicio-pituquerias">
-            <h1 class="inicio-titulo">¡Bienvenidos!</h1>
-            <p class="inicio-p">En Pituquerias vas a encontrar artesanias. Cositas que hagan de tu hogar un espacio bonito para disfrutar!</p>
-            <img src="img/pituquerias.png" alt="Pituquerias">
-        </div>
-
+        <nav class="navbar navbar-expand-lg nav-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="img/pituquerias-logo.png" alt="PituLogo" class="nav-img"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center text-size " id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="Inicio" href="index.html">Inicio</a>
+                  <a class="nav-link" href="productos.html">Productos</a>
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                  <a class="nav-link" href="sobrepituquerias.html">Sobre Nosotros</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
+    <div class="inicio-pituquerias">
+        <h1 class="inicio-titulo">¡Bienvenidos!</h1>
+        <p class="inicio-p">En Pituquerias vas a encontrar artesanias. Cositas que hagan de tu hogar un espacio
+            bonito para disfrutar!</p>
+        <img src="img/pituquerias-logo.png" alt="Pituquerias" class="pituquerias-logo">
+    </div>
 
-
-    <footer>
+<!--     <footer>
         <div class="copyright">
             <h4>Todos los Derechos Reservados © </h4>
         </div>
@@ -54,7 +56,13 @@
                     alt="Facebook"></a>
         </div>
 
-    </footer>
+    </footer> -->
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+    crossorigin="anonymous"></script>
 
 </html>
