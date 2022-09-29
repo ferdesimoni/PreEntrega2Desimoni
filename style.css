@@ -20,6 +20,7 @@ body{
     position: fixed;
 }
 
+
 main{
     position: relative;
 }
@@ -70,6 +71,10 @@ main{
 .index-pituquerias img {
     width: 200px;
     height: 200px;
+}
+
+.pituquerias-logo{
+    border-radius: 100px;
 }
 
 img {
@@ -134,4 +139,11 @@ img {
 .text-description{
     font-size: 40px;
     font-family: 'Hind Siliguri', sans-serif;
+}
+
+.carousel-image{
+    height: 600px;
+}
+.shop-container{
+    padding: 50px;
 }
